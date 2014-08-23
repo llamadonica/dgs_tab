@@ -1,0 +1,35 @@
+---
+build.dart --machine --changed=pubspec.yaml --changed=web/clickcounter.dart --changed=web/clickcounter.html --c...
+Uncaught Error: FileSystemException: Cannot open file, path = '/home/astark/Dropbox/dgs_tab/packages/polymer/builder.dart' (OS Error: No such file or directory, errno = 2)
+Stack Trace: 
+#0      _File.open.<anonymous closure> (dart:io/file_impl.dart:349)
+#1      _rootRunUnary (dart:async/zone.dart:730)
+#2      _RootZone.runUnary (dart:async/zone.dart:864)
+#3      _Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:488)
+#4      _Future._propagateToListeners (dart:async/future_impl.dart:571)
+#5      _Future._completeWithValue (dart:async/future_impl.dart:331)
+#6      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:393)
+#7      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#8      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#9      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+
+
+Unhandled exception:
+FileSystemException: Cannot open file, path = '/home/astark/Dropbox/dgs_tab/packages/polymer/builder.dart' (OS Error: No such file or directory, errno = 2)
+#0      _rootHandleUncaughtError.<anonymous closure>.<anonymous closure> (dart:async/zone.dart:713)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#3      _asyncRunCallback (dart:async/schedule_microtask.dart:36)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+build.dart finished [313 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [12414 ms]
+
+---
+build.dart --machine --changed=build/web/clickcounter.dart --changed=build/web/clickcounter.html --changed=buil...
+
+build.dart finished [7692 ms]
+
