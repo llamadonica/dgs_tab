@@ -33,3 +33,184 @@ build.dart --machine --changed=build/web/clickcounter.dart --changed=build/web/c
 
 build.dart finished [7692 ms]
 
+---
+build.dart --machine --full
+Unable to open file: C:\Users\adam\Google Drive\dgs_tab\packages\polymer\builder.dart'file:///C:/Users/adam/Google Drive/dgs_tab/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [180 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Unable to open file: C:\Users\adam\Google Drive\dgs_tab\packages\yaml\yaml.dart'package:polymer/src/build/runner.dart': error: line 16 pos 1: library handler failed
+import 'package:yaml/yaml.dart';
+^
+'package:polymer/builder.dart': error: line 88 pos 1: library handler failed
+import 'src/build/runner.dart';
+^
+'file:///C:/Users/adam/Google Drive/dgs_tab/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [376 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Unable to open file: C:\Users\adam\Google Drive\dgs_tab\packages\yaml\yaml.dart'package:polymer/src/build/runner.dart': error: line 16 pos 1: library handler failed
+import 'package:yaml/yaml.dart';
+^
+'package:polymer/builder.dart': error: line 88 pos 1: library handler failed
+import 'src/build/runner.dart';
+^
+'file:///C:/Users/adam/Google Drive/dgs_tab/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [335 ms]
+
+---
+build.dart --machine --changed=web\components\clickcounter.dart --changed=web\components\clickcounter.html --re...
+Unable to open file: C:\Users\adam\Google Drive\dgs_tab\packages\yaml\yaml.dart'package:polymer/src/build/runner.dart': error: line 16 pos 1: library handler failed
+import 'package:yaml/yaml.dart';
+^
+'package:polymer/builder.dart': error: line 88 pos 1: library handler failed
+import 'src/build/runner.dart';
+^
+'file:///C:/Users/adam/Google Drive/dgs_tab/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [317 ms]
+
+---
+build.dart --machine --changed=build\web\components\clickcounter.dart --changed=build\web\components\clickcount...
+Unable to open file: C:\Users\adam\Google Drive\dgs_tab\packages\yaml\yaml.dart'package:polymer/src/build/runner.dart': error: line 16 pos 1: library handler failed
+import 'package:yaml/yaml.dart';
+^
+'package:polymer/builder.dart': error: line 88 pos 1: library handler failed
+import 'src/build/runner.dart';
+^
+'file:///C:/Users/adam/Google Drive/dgs_tab/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [6869 ms]
+
+---
+build.dart --machine --changed=web\dgs_tab.html
+Unable to open file: C:\Users\adam\Google Drive\dgs_tab\packages\yaml\yaml.dart'package:polymer/src/build/runner.dart': error: line 16 pos 1: library handler failed
+import 'package:yaml/yaml.dart';
+^
+'package:polymer/builder.dart': error: line 88 pos 1: library handler failed
+import 'src/build/runner.dart';
+^
+'file:///C:/Users/adam/Google Drive/dgs_tab/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [315 ms]
+
+---
+build.dart --machine --full
+Uncaught Error: FileSystemException: Cannot open file, path = 'C:\Users\adam\Google Drive\dgs_tab\packages\yaml\yaml.dart' (OS Error: The system cannot find the file specified.
+, errno = 2)
+Stack Trace: 
+#0      _File.open.<anonymous closure> (dart:io/file_impl.dart:349)
+#1      _rootRunUnary (dart:async/zone.dart:730)
+#2      _RootZone.runUnary (dart:async/zone.dart:864)
+#3      _Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:488)
+#4      _Future._propagateToListeners (dart:async/future_impl.dart:571)
+#5      _Future._completeWithValue (dart:async/future_impl.dart:331)
+#6      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:393)
+#7      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#8      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#9      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+
+
+Unhandled exception:
+FileSystemException: Cannot open file, path = 'C:\Users\adam\Google Drive\dgs_tab\packages\yaml\yaml.dart' (OS Error: The system cannot find the file specified.
+, errno = 2)
+#0      _rootHandleUncaughtError.<anonymous closure>.<anonymous closure> (dart:async/zone.dart:713)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#3      _asyncRunCallback (dart:async/schedule_microtask.dart:36)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+build.dart finished [94 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1309 ms]
+
+---
+build.dart --machine --changed=web\dgs_tab.html
+
+build.dart finished [1143 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1118 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1630 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [5445 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-categories.html --removed=web\components\clickcounter.html
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"couldn't find imported asset \"web/components/clickcounter.html\" in package \"dgs_tab\".","line":11,"charStart":339,"charEnd":394}}]
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":717,"charEnd":742}}]
+build.dart finished [1518 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-categories.dart --removed=web\components\clickcounter.dart
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"couldn't find imported asset \"web/components/clickcounter.html\" in package \"dgs_tab\".","line":11,"charStart":339,"charEnd":394}}]
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":717,"charEnd":742}}]
+build.dart finished [1445 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-categories.html
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"couldn't find imported asset \"web/components/clickcounter.html\" in package \"dgs_tab\".","line":11,"charStart":339,"charEnd":394}}]
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":717,"charEnd":742}}]
+build.dart finished [1422 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-categories.html
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"couldn't find imported asset \"web/components/clickcounter.html\" in package \"dgs_tab\".","line":11,"charStart":339,"charEnd":394}}]
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":717,"charEnd":742}}]
+build.dart finished [1549 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-categories.html
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"couldn't find imported asset \"web/components/clickcounter.html\" in package \"dgs_tab\".","line":11,"charStart":339,"charEnd":394}}]
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":717,"charEnd":742}}]
+build.dart finished [1661 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-categories.html
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"couldn't find imported asset \"web/components/clickcounter.html\" in package \"dgs_tab\".","line":11,"charStart":339,"charEnd":394}}]
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":717,"charEnd":742}}]
+[{"method":"warning","params":{"file":"web/components/dgs-categories.html","message":"definition for Polymer element with tag name \"core-toolbar\" not found.","line":6,"charStart":290,"charEnd":430}}]
+[{"method":"warning","params":{"file":"web/components/dgs-categories.html","message":"definition for Polymer element with tag name \"core-icon\" not found.","line":8,"charStart":442,"charEnd":513}}]
+build.dart finished [2703 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-categories.html
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"couldn't find imported asset \"web/components/clickcounter.html\" in package \"dgs_tab\".","line":11,"charStart":339,"charEnd":394}}]
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":717,"charEnd":742}}]
+[{"method":"warning","params":{"file":"web/components/dgs-categories.html","message":"definition for Polymer element with tag name \"core-icon\" not found.","line":9,"charStart":510,"charEnd":581}}]
+build.dart finished [2074 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-categories.html
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"couldn't find imported asset \"web/components/clickcounter.html\" in package \"dgs_tab\".","line":11,"charStart":339,"charEnd":394}}]
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":717,"charEnd":742}}]
+build.dart finished [1643 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-categories.html
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"couldn't find imported asset \"web/components/clickcounter.html\" in package \"dgs_tab\".","line":11,"charStart":339,"charEnd":394}}]
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":717,"charEnd":742}}]
+build.dart finished [1585 ms]
+
