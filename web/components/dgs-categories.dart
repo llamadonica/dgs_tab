@@ -3,15 +3,14 @@ import 'package:polymer/polymer.dart';
 /**
  * A Polymer click counter element.
  */
-@CustomTag('click-counter')
-class ClickCounter extends PolymerElement {
-  @published int count = 0;
+@CustomTag('dgs-categories')
+class DgsCategories extends PolymerElement {
+  @observable Map project = {};
+  @observable List categories = [];
+  @observable int category = 0;
+  @observable bool wide = true;
 
-  ClickCounter.created() : super.created() {
-  }
-
-  void increment() {
-    count++;
+  DgsCategories.created() : super.created() {
   }
 }
 

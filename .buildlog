@@ -214,3 +214,394 @@ build.dart --machine --changed=web\components\dgs-categories.html
 [{"method":"warning","params":{"file":"web/dgs_tab.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":717,"charEnd":742}}]
 build.dart finished [1585 ms]
 
+---
+build.dart --machine --changed=pubspec.lock --changed=pubspec.yaml --changed=web/components/dgs-categories.dart...
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"couldn't find imported asset \"web/components/clickcounter.html\" in package \"dgs_tab\".","line":11,"charStart":339,"charEnd":394}}]
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":717,"charEnd":742}}]
+build.dart finished [4678 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":719,"charEnd":744}}]
+build.dart finished [2415 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"Unexpected end tag (click-counter). Ignored.","line":23,"charStart":745,"charEnd":761}}]
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"End tag (div) seen too early. Expected other end tag.","line":24,"charStart":766,"charEnd":772}}]
+build.dart finished [2380 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"Unexpected end tag (click-counter). Ignored.","line":23,"charStart":735,"charEnd":751}}]
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"End tag (div) seen too early. Expected other end tag.","line":24,"charStart":756,"charEnd":762}}]
+build.dart finished [2373 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+
+build.dart finished [2366 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-categories.html
+
+build.dart finished [2449 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-categories.html
+
+build.dart finished [2430 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-categories.css
+
+build.dart finished [2664 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-category-theme.css
+
+build.dart finished [2568 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-category-themes.css --removed=web/components/dgs-category-the...
+
+build.dart finished [2544 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-category-themes.css
+
+build.dart finished [2357 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-categories.css
+
+build.dart finished [2463 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+
+build.dart finished [2364 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2618 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.dart
+
+build.dart finished [2668 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-categories.dart
+
+build.dart finished [2385 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.dart
+
+build.dart finished [2403 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"html needs to be the first start tag.","line":2,"charStart":58,"charEnd":64}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"Unexpected start tag head in existing head. Ignored.","line":3,"charStart":67,"charEnd":73}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"couldn't find imported asset \"web/components/components/dgs-categories.html\" in package \"dgs_tab\".","line":1,"charStart":0,"charEnd":57}}]
+build.dart finished [2464 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2425 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"couldn't find imported asset \"lib/core-animated-pages/transitions/slide-up.html\" in package \"core_elements\".","line":4,"charStart":149,"charEnd":244}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"couldn't find imported asset \"lib/core-animated-pages/transitions/scale-up.html\" in package \"core_elements\".","line":5,"charStart":245,"charEnd":340}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"couldn't find imported asset \"lib/core-animated-pages/transitions/tile-cascade.html\" in package \"core_elements\".","line":6,"charStart":341,"charEnd":440}}]
+build.dart finished [2635 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"couldn't find imported asset \"lib/core-animated-pages/transitions/scale-up.html\" in package \"core_elements\".","line":5,"charStart":249,"charEnd":344}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"couldn't find imported asset \"lib/core-animated-pages/transitions/tile-cascade.html\" in package \"core_elements\".","line":6,"charStart":345,"charEnd":444}}]
+build.dart finished [2563 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2588 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"definition for Polymer element with tag name \"dgs-app\" not found.","line":17,"charStart":555,"charEnd":564}}]
+build.dart finished [2480 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"Move HTML imports above your Dart script tag.","line":14,"charStart":478,"charEnd":528}}]
+build.dart finished [2729 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+
+build.dart finished [2631 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-categories\" not found.","line":19,"charStart":1085,"charEnd":1299}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-category\" not found.","line":23,"charStart":1327,"charEnd":1456}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-leaderboard\" not found.","line":25,"charStart":1486,"charEnd":1591}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-profile\" not found.","line":27,"charStart":1618,"charEnd":1694}}]
+build.dart finished [2577 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-categories.html
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-categories\" not found.","line":19,"charStart":1085,"charEnd":1299}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-category\" not found.","line":23,"charStart":1327,"charEnd":1456}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-leaderboard\" not found.","line":25,"charStart":1486,"charEnd":1591}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-profile\" not found.","line":27,"charStart":1618,"charEnd":1694}}]
+build.dart finished [2811 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-categories.html
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-categories\" not found.","line":19,"charStart":1085,"charEnd":1299}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-category\" not found.","line":23,"charStart":1327,"charEnd":1456}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-leaderboard\" not found.","line":25,"charStart":1486,"charEnd":1591}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-profile\" not found.","line":27,"charStart":1618,"charEnd":1694}}]
+build.dart finished [2651 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-categories.dart
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-categories\" not found.","line":19,"charStart":1085,"charEnd":1299}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-category\" not found.","line":23,"charStart":1327,"charEnd":1456}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-leaderboard\" not found.","line":25,"charStart":1486,"charEnd":1591}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-profile\" not found.","line":27,"charStart":1618,"charEnd":1694}}]
+build.dart finished [2657 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-categories.dart
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-categories\" not found.","line":19,"charStart":1085,"charEnd":1299}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-category\" not found.","line":23,"charStart":1327,"charEnd":1456}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-leaderboard\" not found.","line":25,"charStart":1486,"charEnd":1591}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-profile\" not found.","line":27,"charStart":1618,"charEnd":1694}}]
+build.dart finished [2747 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"Unexpected end tag (topeka-categories). Ignored.","line":21,"charStart":1296,"charEnd":1316}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"Unexpected end tag (core-animated-pages). Ignored.","line":29,"charStart":1716,"charEnd":1738}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"app-categories\" not found.","line":19,"charStart":1085,"charEnd":1296}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-category\" not found.","line":23,"charStart":1324,"charEnd":1453}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-leaderboard\" not found.","line":25,"charStart":1483,"charEnd":1588}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-profile\" not found.","line":27,"charStart":1615,"charEnd":1691}}]
+build.dart finished [2753 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-category\" not found.","line":23,"charStart":1321,"charEnd":1450}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-leaderboard\" not found.","line":25,"charStart":1480,"charEnd":1585}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"topeka-profile\" not found.","line":27,"charStart":1612,"charEnd":1688}}]
+build.dart finished [2881 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [3025 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2625 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-categories.html
+
+build.dart finished [2654 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.dart
+
+build.dart finished [2747 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2786 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.css
+
+build.dart finished [3111 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.css
+
+build.dart finished [2584 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2736 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+
+build.dart finished [2828 ms]
+
+---
+build.dart --machine --changed=build/web/components/dgs-app.css --changed=build/web/components/dgs-app.dart --c...
+
+build.dart finished [3115 ms]
+
+---
+build.dart --machine --changed=build/web/components/dgs-app.css --changed=build/web/components/dgs-app.dart --c...
+
+build.dart finished [3273 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2788 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.dart
+
+build.dart finished [3090 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.dart
+
+build.dart finished [2649 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2547 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.dart
+
+build.dart finished [2503 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.css
+
+build.dart finished [2532 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2777 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2841 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2898 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2609 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2601 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2564 ms]
+
+---
+build.dart --machine --removed=build/web/components/dgs-app.css --removed=build/web/components/dgs-app.dart --r...
+
+build.dart finished [2630 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+
+build.dart finished [2895 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+
+build.dart finished [2811 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+
+build.dart finished [2545 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"Move HTML imports above your Dart script tag.","line":15,"charStart":365,"charEnd":415}}]
+build.dart finished [2647 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+
+build.dart finished [2498 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2455 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2478 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"couldn't find imported asset \"lib/core_animated_pages.html\" in package \"core_elements\".","line":1,"charStart":0,"charEnd":74}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"definition for Polymer element with tag name \"core-animated-pages\" not found.","line":6,"charStart":260,"charEnd":310}}]
+build.dart finished [2847 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [3085 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [3144 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2529 ms]
+
+---
+build.dart --machine --changed=build/web/components/dgs-app.css --changed=build/web/components/dgs-app.dart --c...
+
+build.dart finished [2465 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2635 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.dart
+
+build.dart finished [2651 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [2474 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.dart
+
+build.dart finished [2529 ms]
+

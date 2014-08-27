@@ -4,24 +4,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample app</title>
-    <script src="packages/web_components/platform.js"></script>
-    <script src="packages/web_components/dart_support.js"></script>
-    <!-- import the click-counter -->
-    <link rel="import" href="components/clickcounter.html">
+    
+    <link rel="import" href="components/dgs-app.html">
     <script type="application/dart">export 'package:polymer/init.dart';</script>
     <script src="packages/browser/dart.js"></script>
     
-    <link rel="stylesheet" href="dgs_tab.css">
+    <title>Sample app</title>
   </head>
-  <body unresolved>
-    <h1>Dgs tab</h1>
-    
-    <p>Hello world from Dart!</p>
-    
-    <div id="sample_container_id">
-      <click-counter count="5"></click-counter>
-    </div>
-
+  <body>
+    <dgs-app></dgs-app>
   </body>
 </html>

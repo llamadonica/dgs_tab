@@ -1,18 +1,13 @@
 <link rel="import" href="packages/core_elements/core_icon.html">
 <link rel="import" href="packages/core_elements/core_toolbar.html">
-<polymer-element name="dgs-categories" attributes="user categories category wide" vertical layout>
-  <link rel="stylesheet" href="topeka-categories.css">
-  <link rel="stylesheet" href="topeka-category-themes.css">
+<polymer-element name="dgs-categories" attributes="project categories category wide" vertical layout>
+  <link rel="stylesheet" href="dgs-categories.css">
+  <link rel="stylesheet" href="dgs-category-themes.css">
   <template>  
     <core-toolbar class="category-toolbar" slide-down?="{{parentElement.selected !== 'category' && parentElement.lastSelected !== 'category'}}">
-      <core-icon icon="avatars:avatar-{{user.avatar}}" class="topeka-avatar"></core-icon>
-      <div flex class="user-name">{{user.name}}</div>
+      <core-icon icon="avatars:avatar-{{project.avatar}}" class="topeka-avatar"></core-icon>
+      <div flex class="user-name">{{project.name}}</div>
     </core-toolbar>
-    
-    <div>
-      <button on-click="{{increment}}">Click me</button><br>
-      <span>(click count: {{count}})</span>
-    </div>
   </template>
   <script type="application/dart" src="dgs-categories.dart"></script>
 </polymer-element>

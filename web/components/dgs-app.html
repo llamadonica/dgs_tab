@@ -1,0 +1,14 @@
+<link rel="import" href="packages/core_elements/core_animated_pages.html">
+<link rel="import" href="packages/core_elements/core_media_query.html">
+<polymer-element name="dgs-app" vertical layout>
+  <template>
+    <link rel="stylesheet" href="dgs-app.css">
+    <core-animated-pages selected="{{selected}}" flex>
+      <div name="splash">
+        <span fit class="splash {{wide?'wide':''}}" cross-fade></span>
+      </div>
+    </core-animated-pages>
+    <core-media-query query="min-width: {{responsiveWidth}}" queryMatches="{{wide}}"></core-media-query>
+  </template>
+  <script type="application/dart" src="dgs-app.dart"></script>
+</polymer-element>
