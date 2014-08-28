@@ -4,11 +4,11 @@ packages:
   analyzer:
     description: analyzer
     source: hosted
-    version: "0.15.7"
+    version: "0.22.3"
   args:
     description: args
     source: hosted
-    version: "0.11.0+1"
+    version: "0.12.0+2"
   barback:
     description: barback
     source: hosted
@@ -28,7 +28,7 @@ packages:
   core_elements:
     description: core_elements
     source: hosted
-    version: "0.1.1+2"
+    version: "0.2.0+1"
   csslib:
     description: csslib
     source: hosted
@@ -48,7 +48,7 @@ packages:
   paper_elements:
     description: paper_elements
     source: hosted
-    version: "0.1.0+3"
+    version: "0.1.1+2"
   path:
     description: path
     source: hosted
@@ -56,7 +56,7 @@ packages:
   polymer:
     description: polymer
     source: hosted
-    version: "0.12.2+1"
+    version: "0.13.0"
   polymer_expressions:
     description: polymer_expressions
     source: hosted
@@ -76,7 +76,7 @@ packages:
   source_maps:
     description: source_maps
     source: hosted
-    version: "0.9.4"
+    version: "0.10.0"
   source_span:
     description: source_span
     source: hosted
@@ -84,24 +84,28 @@ packages:
   stack_trace:
     description: stack_trace
     source: hosted
-    version: "0.9.3+2"
+    version: "1.0.2"
   string_scanner:
     description: string_scanner
     source: hosted
-    version: "0.0.3"
+    version: "0.1.0"
   template_binding:
     description: template_binding
     source: hosted
-    version: "0.12.0+4"
+    version: "0.12.1"
   utf:
     description: utf
     source: hosted
     version: "0.9.0+1"
+  watcher:
+    description: watcher
+    source: hosted
+    version: "0.9.3"
   web_components:
     description: web_components
     source: hosted
-    version: "0.5.0+1"
+    version: "0.6.0"
   yaml:
     description: yaml
     source: hosted
-    version: "1.1.1"
+    version: "2.0.0"

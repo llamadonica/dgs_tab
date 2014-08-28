@@ -605,3 +605,701 @@ build.dart --machine --changed=web/components/dgs-app.dart
 
 build.dart finished [2529 ms]
 
+---
+build.dart --machine --changed=pubspec.lock --changed=web\components\dgs-app.css --changed=web\components\dgs-a...
+[{"method":"warning","params":{"file":"web/components/dgs-categories.html","message":"Missing definition for <polymer-element>, please add the following HTML import at the top of this file: <link rel=\"import\" href=\"../packages/polymer/polymer.html\">.","line":3,"charStart":133,"charEnd":234}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"Missing definition for <polymer-element>, please add the following HTML import at the top of this file: <link rel=\"import\" href=\"../packages/polymer/polymer.html\">.","line":3,"charStart":147,"charEnd":195}}]
+build.dart finished [2438 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"couldn't find imported asset \"lib/polymer.html\" in package \"polymer\".","line":3,"charStart":147,"charEnd":203}}]
+[{"method":"warning","params":{"file":"web/components/dgs-categories.html","message":"Missing definition for <polymer-element>, please add the following HTML import at the top of this file: <link rel=\"import\" href=\"../packages/polymer/polymer.html\">.","line":3,"charStart":133,"charEnd":234}}]
+[{"method":"warning","params":{"file":"web/components/dgs-app.html","message":"Missing definition for <polymer-element>, please add the following HTML import at the top of this file: <link rel=\"import\" href=\"../packages/polymer/polymer.html\">.","line":4,"charStart":204,"charEnd":252}}]
+build.dart finished [1579 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1788 ms]
+
+---
+build.dart --machine --removed=build\web\components\clickcounter.dart --removed=build\web\components\clickcount...
+Uncaught Error: FileSystemException: Cannot open file, path = 'C:\Users\adam\Google Drive\dgs_tab\packages\polymer\builder.dart' (OS Error: The system cannot find the path specified.
+, errno = 3)
+Stack Trace: 
+#0      _File.open.<anonymous closure> (dart:io/file_impl.dart:349)
+#1      _rootRunUnary (dart:async/zone.dart:730)
+#2      _RootZone.runUnary (dart:async/zone.dart:864)
+#3      _Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:488)
+#4      _Future._propagateToListeners (dart:async/future_impl.dart:571)
+#5      _Future._completeWithValue (dart:async/future_impl.dart:331)
+#6      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:393)
+#7      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#8      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#9      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+
+
+Unhandled exception:
+FileSystemException: Cannot open file, path = 'C:\Users\adam\Google Drive\dgs_tab\packages\polymer\builder.dart' (OS Error: The system cannot find the path specified.
+, errno = 3)
+#0      _rootHandleUncaughtError.<anonymous closure>.<anonymous closure> (dart:async/zone.dart:713)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#3      _asyncRunCallback (dart:async/schedule_microtask.dart:36)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+build.dart finished [66 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1889 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1634 ms]
+
+---
+build.dart --machine --removed=web\components\dgs-categories.dart --removed=web\components\dgs-categories.html
+
+build.dart finished [1553 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1562 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1542 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1555 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1572 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1595 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1588 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1518 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1545 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1572 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1574 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1566 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1520 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1918 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1572 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1564 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1609 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1825 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1556 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1589 ms]
+
+---
+build.dart --machine --changed=web\model\project.dart
+
+build.dart finished [1549 ms]
+
+---
+build.dart --machine --changed=web\model\project.dart
+
+build.dart finished [1554 ms]
+
+---
+build.dart --machine --changed=web\model\project.dart
+
+build.dart finished [1538 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1575 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1552 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1614 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1540 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1530 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1556 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1531 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1532 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1862 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1540 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1560 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1555 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1531 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1538 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1538 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1547 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1567 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1561 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1533 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1551 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1646 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1560 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1608 ms]
+
+---
+build.dart --machine --changed=web\dgs_tab.html
+
+build.dart finished [1609 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+Uncaught Error: FileSystemException: Cannot open file, path = 'C:\Users\adam\Google Drive\dgs_tab\packages\polymer\builder.dart' (OS Error: The system cannot find the path specified.
+, errno = 3)
+Stack Trace: 
+#0      _File.open.<anonymous closure> (dart:io/file_impl.dart:349)
+#1      _rootRunUnary (dart:async/zone.dart:730)
+#2      _RootZone.runUnary (dart:async/zone.dart:864)
+#3      _Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:488)
+#4      _Future._propagateToListeners (dart:async/future_impl.dart:571)
+#5      _Future._completeWithValue (dart:async/future_impl.dart:331)
+#6      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:393)
+#7      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#8      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#9      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+
+
+Unhandled exception:
+FileSystemException: Cannot open file, path = 'C:\Users\adam\Google Drive\dgs_tab\packages\polymer\builder.dart' (OS Error: The system cannot find the path specified.
+, errno = 3)
+#0      _rootHandleUncaughtError.<anonymous closure>.<anonymous closure> (dart:async/zone.dart:713)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#3      _asyncRunCallback (dart:async/schedule_microtask.dart:36)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+build.dart finished [269 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1702 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1902 ms]
+
+---
+build.dart --machine --changed=web\dgs_tab.html
+
+build.dart finished [1564 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2075 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1738 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1720 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2425 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1734 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1693 ms]
+
+---
+build.dart --machine --changed=web\dgs_tab.html
+
+build.dart finished [1715 ms]
+
+---
+build.dart --machine --changed=web\dgs_tab.html
+
+build.dart finished [1788 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+
+build.dart finished [1824 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+[{"method":"warning","params":{"file":"web/components/dgs-splash.html","message":"Missing definition for <polymer-element>, please add the following HTML import at the top of this file: <link rel=\"import\" href=\"../packages/polymer/polymer.html\">.","line":1,"charStart":0,"charEnd":48}}]
+[{"method":"warning","params":{"file":"web/components/dgs-splash.html","message":"definition for Polymer element with tag name \"core-animated-pages\" not found.","line":4,"charStart":113,"charEnd":163}}]
+[{"method":"warning","params":{"file":"web/components/dgs-splash.html","message":"definition for Polymer element with tag name \"core-media-query\" not found.","line":15,"charStart":535,"charEnd":616}}]
+build.dart finished [1728 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+[{"method":"warning","params":{"file":"web/components/dgs-splash.html","message":"couldn't find imported asset \"lib/polym.html\" in package \"polymer\".","line":1,"charStart":0,"charEnd":54}}]
+[{"method":"warning","params":{"file":"web/components/dgs-splash.html","message":"Missing definition for <polymer-element>, please add the following HTML import at the top of this file: <link rel=\"import\" href=\"../packages/polymer/polymer.html\">.","line":2,"charStart":55,"charEnd":103}}]
+[{"method":"warning","params":{"file":"web/components/dgs-splash.html","message":"definition for Polymer element with tag name \"core-animated-pages\" not found.","line":5,"charStart":168,"charEnd":218}}]
+[{"method":"warning","params":{"file":"web/components/dgs-splash.html","message":"definition for Polymer element with tag name \"core-media-query\" not found.","line":16,"charStart":590,"charEnd":671}}]
+build.dart finished [1750 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+[{"method":"warning","params":{"file":"web/components/dgs-splash.html","message":"definition for Polymer element with tag name \"core-animated-pages\" not found.","line":5,"charStart":170,"charEnd":220}}]
+[{"method":"warning","params":{"file":"web/components/dgs-splash.html","message":"definition for Polymer element with tag name \"core-media-query\" not found.","line":16,"charStart":592,"charEnd":673}}]
+build.dart finished [1740 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+
+build.dart finished [2076 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+
+build.dart finished [2053 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.dart
+
+build.dart finished [1711 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.dart
+
+build.dart finished [1743 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.css
+
+build.dart finished [1718 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.css
+
+build.dart finished [1759 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.css
+
+build.dart finished [1733 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1739 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1757 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1718 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+
+build.dart finished [1725 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+
+build.dart finished [1737 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.dart
+
+build.dart finished [1764 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+
+build.dart finished [1783 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.dart
+
+build.dart finished [1758 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+
+build.dart finished [1737 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+
+build.dart finished [1755 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1747 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.css
+
+build.dart finished [1729 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.dart
+
+build.dart finished [1808 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.dart
+
+build.dart finished [1823 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1739 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [5658 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1733 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+[{"method":"warning","params":{"file":"web/components/dgs-splash.html","message":"script tag has \"src\" attribute and also has script text.","line":9,"charStart":300,"charEnd":354}}]
+build.dart finished [1986 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+[{"method":"warning","params":{"file":"web/components/dgs-splash.html","message":"script tag has \"src\" attribute and also has script text.","line":9,"charStart":300,"charEnd":354}}]
+build.dart finished [1758 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+
+build.dart finished [1738 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.dart
+
+build.dart finished [1753 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.dart
+
+build.dart finished [1723 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [2330 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+
+build.dart finished [1850 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-splash.html
+
+build.dart finished [1766 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1763 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1728 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1792 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1781 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1774 ms]
+
+---
+build.dart --machine --removed=web\components\dgs-splash.html
+
+build.dart finished [1716 ms]
+
+---
+build.dart --machine --removed=web\components\dgs-splash.dart
+
+build.dart finished [1731 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.css
+
+build.dart finished [1726 ms]
+
+---
+build.dart --machine --removed=web\components\dgs-splash.css
+
+build.dart finished [1737 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1729 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1734 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1719 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1785 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1723 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1698 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1745 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1749 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.html
+
+build.dart finished [1741 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1731 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1739 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1711 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1718 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1734 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1701 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1712 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1722 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1746 ms]
+
+---
+build.dart --machine --changed=web\components\dgs-app.dart
+
+build.dart finished [1739 ms]
+
