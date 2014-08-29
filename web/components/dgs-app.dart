@@ -1,6 +1,7 @@
 import 'package:polymer/polymer.dart';
 import 'dart:html';
-import '../model/project.dart';
+
+import '../models.dart';
 
 /**
  * A Polymer click counter element.
@@ -11,6 +12,7 @@ class DgsApp extends PolymerElement {
   @observable final String responsiveWidth = '900px';
   @observable bool wide;
   @observable Project project;
+  @observable Repository repository;
   
   static const Duration MIN_DURATION = const Duration(seconds: 1);
   DateTime readyTime;
