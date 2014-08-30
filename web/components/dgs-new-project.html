@@ -15,7 +15,7 @@
             <paper-input label="Project Name" id="name"></paper-input>
           </div>
           <div flex></div>
-          <paper-fab id="check" icon="check" showing?="{{$.name.inputValue.length && $.last.inputValue.length}}" on-tap="{{handleLogin}}"></paper-fab>
+          <paper-fab id="check" icon="check" showing?="{{$['name'].inputValue.length}}" on-tap="{{handleLogin}}"></paper-fab>
         </div>
       </div>
     </div>
