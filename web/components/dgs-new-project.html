@@ -1,0 +1,25 @@
+<link rel="import" href="packages/paper_elements/paper_fab.html">
+<link rel="import" href="packages/paper_elements/paper_button.html">
+<link rel="import" href="packages/paper_elements/paper_input.html">
+
+<polymer-element name="dgs-new-project" attributes="project wide" vertical layout center>
+  <template>
+    <link rel="stylesheet" href="dgs-new-project.css">
+    <div class="bg" fit dummy cross-fade></div>
+    
+    <div class="main" flex layout vertical cross-fade-delayed?="{{parentElement.lastSelected === 'splash'}}">
+      <div class="card{{wide?' wide':''}}" flex layout vertical slide-up-offscreen?="{{parentElement.selected === 'profile'}}" cross-fade="{{!wide && parentElement.selected !== 'profile'}}">
+        <div layout vertical flex cross-fade-delayed?="{{parentElement.lastSelected !== 'splash' && wide}}" on-keypress="{{ keypressAction }}">
+          <div class="indent" layout vertical>
+            <div class="header">New Project</div>
+            <paper-input label="Project Name" id="name"></paper-input>
+          </div>
+          <div flex></div>
+          <paper-fab id="check" icon="check" showing?="{{$.name.inputValue.length && $.last.inputValue.length}}" on-tap="{{handleLogin}}"></paper-fab>
+        </div>
+      </div>
+    </div>
+  
+  </template>
+  <script type="application/dart" src="dgs-new-project.dart"></script>
+</polymer-element>

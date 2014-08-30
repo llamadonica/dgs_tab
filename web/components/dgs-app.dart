@@ -22,6 +22,8 @@ class DgsApp extends PolymerElement {
   
   @override ready() {
     readyTime = new DateTime.now();
+    repository = new Repository();
+    
     if (window.history.state == null)
       window.history.pushState({'app':'dgs'}, '');
     window.onPopState.listen(popState);
@@ -36,7 +38,9 @@ class DgsApp extends PolymerElement {
       window.history.pushState({'app':'dgs'}, '');
   }
   finishStartup() {
-    if (project == null) {
+    if (repository.isEmpty) {
+      this.selected = 'new-project';
+    } else if (project == null) {
       this.selected = 'pick-project';
     } else {
       this.selected = 'categories';

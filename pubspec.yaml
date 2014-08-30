@@ -4,6 +4,7 @@ dependencies:
   core_elements: '>=0.2.0 <0.3.0'
   paper_elements: '>=0.1.0 <0.3.0'
   polymer: '>=0.13.0 <0.14.0'
+  quiver: any
 transformers:
 - polymer:
     entry_points: web/dgs_tab.html

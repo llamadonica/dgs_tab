@@ -1,6 +1,8 @@
 <link rel="import" href="packages/core_elements/core_animated_pages.html">
 <link rel="import" href="packages/core_elements/core_media_query.html">
 
+<link rel="import" href="dgs-new-project.html">
+
 <polymer-element name="dgs-app" vertical layout>
   <template>
     <link rel="stylesheet" href="dgs-app.css">
@@ -14,6 +16,7 @@
       <div name="pick-project">
         <span fit class="splash{{wide?' wide':''}}" cross-fade></span>
       </div>
+      <dgs-new-project id="new-project" name="new-project" project="{{project}}" wide="{{wide}}"></dgs-new-project>
       <div name="categories">
         <span fit class="splash{{wide?' wide':''}}" cross-fade></span>
       </div>
