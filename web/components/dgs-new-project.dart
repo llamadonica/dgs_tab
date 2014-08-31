@@ -12,11 +12,14 @@ class DgsNewProject extends PolymerElement {
   @published Project project;
   @observable bool fabIsShowing = false;
   
-  static List<String> fields = ['name','resd_number'];
+  static List<String> fields = ['name','resdNumber'];
   
   DgsNewProject.created() : super.created();
   @override
   ready() {
+    if (project != null) {
+      $['name'].inputValue = project.name;
+    }
     ($['name'] as PaperInput).onChange.listen((ev) {
       if (($['name'] as PaperInput).inputValue == '')
         fabIsShowing = false;

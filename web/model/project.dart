@@ -5,6 +5,9 @@ class Project {
   final StreamController<ProjectModEvent> _projectModified = 
       new StreamController<ProjectModEvent>();
   
+  String name;
+  String resdNumber;
+  
   Stream<ProjectModEvent> get onProjectModified => _projectModified.stream;
   
   Project(String this.id);
