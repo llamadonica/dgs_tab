@@ -12,7 +12,8 @@ class DgsNewProject extends PolymerElement {
   @published Project project;
   @observable bool fabIsShowing = false;
   
-  static List<String> fields = ['name','resd_number'];
+  static const String LAST_ELEMENT = 'name';
+  static List<String> fields = ['name'];
   
   DgsNewProject.created() : super.created();
   @override

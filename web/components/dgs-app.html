@@ -6,7 +6,7 @@
 <polymer-element name="dgs-app" vertical layout>
   <template>
     <link rel="stylesheet" href="dgs-app.css">
-    <core-animated-pages selected="{{selected}}" flex>
+    <core-animated-pages selected="{{selected}}" transitions="cross-fade-delayed cross-fade slide-up-offscreen" flex>
       <div name="splash">
         <div fit class="splash{{wide?' wide':''}}" cross-fade>
           <h1>DGS Tab</h1>

@@ -1408,3 +1408,425 @@ build.dart --machine --changed=web/components/dgs-new-project.dart
 
 build.dart finished [2990 ms]
 
+---
+build.dart --machine --changed=pubspec.lock --changed=pubspec.yaml --changed=web/components/dgs-app.css --chang...
+
+build.dart finished [3149 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.dart
+
+build.dart finished [2851 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.dart
+
+build.dart finished [2970 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.dart
+
+build.dart finished [3100 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.dart
+
+build.dart finished [3033 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.dart
+
+build.dart finished [3464 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+
+build.dart finished [3133 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+
+build.dart finished [3577 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+
+build.dart finished [3006 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.dart
+
+build.dart finished [3047 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"couldn't find imported asset \"web/core-icons/core-icons.html\" in package \"dgs_tab\".","line":4,"charStart":203,"charEnd":259}}]
+build.dart finished [3111 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"couldn't find imported asset \"lib/core-icons/core_icons.html\" in package \"core_elements\".","line":4,"charStart":203,"charEnd":279}}]
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [2986 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [3816 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3398 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"info","params":{"message":"Took 1.1s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3462 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [6124 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.css
+[{"method":"info","params":{"message":"Took 5.5s (5.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 5.5s (5.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 5.6s (5.2s awaiting secondary inputs)."}}]
+build.dart finished [17371 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"info","params":{"message":"Took 1.2s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [10766 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"info","params":{"message":"Took 1.3s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [5695 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"info","params":{"message":"Took 1.1s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [6919 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [5501 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"info","params":{"message":"Took 1.0s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [4808 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [4295 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.dart
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [4429 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [4661 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.dart
+[{"method":"info","params":{"message":"Took 1.2s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [4350 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [15935 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.css
+
+build.dart finished [6922 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.css
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3529 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+
+build.dart finished [3573 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3739 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [3835 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+
+build.dart finished [3480 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"info","params":{"message":"Took 1.2s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [3892 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+
+build.dart finished [3281 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3273 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3573 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":15,"charStart":648,"charEnd":780}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":15,"charStart":648,"charEnd":787}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":15,"charStart":648,"charEnd":790}}]
+build.dart finished [3213 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":11,"charStart":485,"charEnd":581}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":587}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":15,"charStart":687,"charEnd":819}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":15,"charStart":687,"charEnd":826}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":15,"charStart":687,"charEnd":829}}]
+build.dart finished [3428 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":11,"charStart":485,"charEnd":581}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":587}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":15,"charStart":687,"charEnd":775}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":15,"charStart":687,"charEnd":782}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":15,"charStart":687,"charEnd":785}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":15,"charStart":687,"charEnd":847}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":15,"charStart":687,"charEnd":854}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":15,"charStart":687,"charEnd":857}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Dropped duplicate attribute on tag.","line":15,"charStart":687,"charEnd":858}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3245 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":11,"charStart":485,"charEnd":581}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":587}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":717}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":727}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":789}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":796}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":799}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Dropped duplicate attribute on tag.","line":13,"charStart":598,"charEnd":800}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":16,"charStart":809,"charEnd":897}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":16,"charStart":809,"charEnd":904}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":16,"charStart":809,"charEnd":907}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":16,"charStart":809,"charEnd":969}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":16,"charStart":809,"charEnd":976}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":16,"charStart":809,"charEnd":979}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Dropped duplicate attribute on tag.","line":16,"charStart":809,"charEnd":980}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3406 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":11,"charStart":485,"charEnd":581}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":587}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":717}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":727}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":789}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":796}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":799}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Dropped duplicate attribute on tag.","line":13,"charStart":598,"charEnd":800}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3630 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.html
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":11,"charStart":485,"charEnd":581}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":587}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":717}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":727}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":789}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":796}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":799}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Dropped duplicate attribute on tag.","line":13,"charStart":598,"charEnd":800}}]
+build.dart finished [3368 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-app.html
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":11,"charStart":485,"charEnd":581}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":587}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":717}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":727}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":789}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":796}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":799}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Dropped duplicate attribute on tag.","line":13,"charStart":598,"charEnd":800}}]
+build.dart finished [3541 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":11,"charStart":485,"charEnd":581}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":587}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":717}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":727}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":789}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":796}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":799}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Dropped duplicate attribute on tag.","line":13,"charStart":598,"charEnd":800}}]
+[{"method":"warning","params":{"file":"web/dgs_tab.html","message":"Unexpected end of file. Expected end tag (title).","line":13,"charStart":385,"charEnd":392}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3202 ms]
+
+---
+build.dart --machine --changed=web/dgs_tab.html
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":11,"charStart":485,"charEnd":581}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":587}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":717}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":727}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":789}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":796}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":799}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Dropped duplicate attribute on tag.","line":13,"charStart":598,"charEnd":800}}]
+build.dart finished [3520 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-open.css --changed=web/components/dgs-open.dart --changed=web...
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":11,"charStart":485,"charEnd":581}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":587}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":717}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":727}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":789}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":796}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":799}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Dropped duplicate attribute on tag.","line":13,"charStart":598,"charEnd":800}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Unexpected character after attribute value.","line":11,"charStart":485,"charEnd":581}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":587}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":717}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":727}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":789}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":796}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":799}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Dropped duplicate attribute on tag.","line":13,"charStart":598,"charEnd":800}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [3692 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.dart
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":11,"charStart":485,"charEnd":581}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":587}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":717}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":727}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":789}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":796}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":799}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Dropped duplicate attribute on tag.","line":13,"charStart":598,"charEnd":800}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Unexpected character after attribute value.","line":11,"charStart":485,"charEnd":581}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":587}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":717}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":727}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":789}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":796}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":799}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Dropped duplicate attribute on tag.","line":13,"charStart":598,"charEnd":800}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [4080 ms]
+
+---
+build.dart --machine --changed=web/components/dgs-new-project.dart
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Unexpected character after attribute value.","line":11,"charStart":485,"charEnd":581}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":587}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":717}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":727}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":789}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":796}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":799}}]
+[{"method":"warning","params":{"file":"web/components/dgs-open.html","message":"Dropped duplicate attribute on tag.","line":13,"charStart":598,"charEnd":800}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":11,"charStart":485,"charEnd":581}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":587}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":11,"charStart":485,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":717}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":724}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":727}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Unexpected character after attribute value.","line":13,"charStart":598,"charEnd":789}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":796}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Invalid character in attribute name","line":13,"charStart":598,"charEnd":799}}]
+[{"method":"warning","params":{"file":"web/components/dgs-new-project.html","message":"Dropped duplicate attribute on tag.","line":13,"charStart":598,"charEnd":800}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [3740 ms]
+
