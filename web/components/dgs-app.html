@@ -2,6 +2,7 @@
 <link rel="import" href="packages/core_elements/core_media_query.html">
 
 <link rel="import" href="dgs-new-project.html">
+<link rel="import" href="dgs-open.html">
 
 <polymer-element name="dgs-app" vertical layout>
   <template>
@@ -13,10 +14,8 @@
           <p>Loading...</p>
         </div>
       </div>
-      <div name="pick-project">
-        <span fit class="splash{{wide?' wide':''}}" cross-fade></span>
-      </div>
-      <dgs-new-project id="new-project" name="new-project" project="{{project}}" wide="{{wide}}"></dgs-new-project>
+      <dgs-open id="open" name="open" repository="{{repository}}" wide="{{wide}}"></dgs-open>
+      <dgs-new-project id="new-project" name="new-project" repository="{{repository}}" project="{{project}}" wide="{{wide}}"></dgs-new-project>
       <div name="categories">
         <span fit class="splash{{wide?' wide':''}}" cross-fade></span>
       </div>

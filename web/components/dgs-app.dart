@@ -41,9 +41,9 @@ class DgsApp extends PolymerElement {
     if (repository.isEmpty) {
       this.selected = 'new-project';
     } else if (project == null) {
-      this.selected = 'pick-project';
+      this.selected = 'open';
     } else {
-      this.selected = 'categories';
+      this.selected = 'open';
     }
   }
 }

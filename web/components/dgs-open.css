@@ -36,42 +36,6 @@
     .indent {
       padding: 0 2px;
     }
-
-    .topeka-avatar {
-      width: 64px;
-      height: 64px;
-      border-radius: 50%;
-      display: inline-block;
-      overflow: hidden;
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0);
-    }
-
-    #check {
-      width: 56px;
-      height: 56px;
-      background-color: #f5f5f5;
-      fill: black;
-    }
-
-    paper-fab {
-      transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1) 500ms, background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
-      -webkit-transition: -webkit-transform 500ms cubic-bezier(0.4, 0, 0.2, 1) 500ms, background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
-      -webkit-transform: scale(0);
-      transform: scale(0);
-      -webkit-transform-origin: 50% 50%;
-      transform-origin: 50% 50%;
-    }
-
-    paper-fab[showing="true"] {
-      -webkit-transform: none;
-      transform: none;
-    }
-
-    /* TODO(kschaaf): fix more generally */
-    paper-fab[disabled] {
-      pointer-events: none;
-    }
     
     .main {
       position: relative;
@@ -85,7 +49,17 @@
       z-index: -1;
     }
 
-    paper-input {
+    paper-button {
       max-width: 20em;
+      margin-bottom: 1em;
       width: auto;
+    }
+    
+    paper-button::shadow #content > span {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      
+    }
+    paper-button:last-child {
+      margin-bottom: 0;
     }

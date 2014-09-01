@@ -1,6 +1,6 @@
 part of dgs.models;
 
-class Repository extends SetMixin<Project> {
+class Repository extends SetMixin<Project> with ChangeNotifier {
   final UserStorage _localStorage;
   final Map<String,Project> _projects = new Map<String,Project>();
   final Map<String,StreamSubscription> _projectSubscriptions = 
@@ -13,7 +13,7 @@ class Repository extends SetMixin<Project> {
       return _projects[id];
     final Project project = _projects[id] = new Project(id);
     project.initFromJSON(_localStorage[id]);
-    _projectSubscriptions[id] = project.onProjectModified.listen((_) {
+    _projectSubscriptions[id] = project.changes.listen((_) {
       _localStorage[project.id] = project.toJSON();
     });
     return project;
@@ -21,11 +21,15 @@ class Repository extends SetMixin<Project> {
   
   @override
   void clear() {
+    notifyPropertyChange(#length, length, 0);
+    notifyChange(new PropertyChangeRecord(this, #iterator, null, null));
+    
     _localStorage.clear();
     _projects.clear();
     for (StreamSubscription sub in _projectSubscriptions)
       sub.cancel();
     _projectSubscriptions.clear();
+    
   }
 
   @override
@@ -35,9 +39,13 @@ class Repository extends SetMixin<Project> {
       _projectSubscriptions[project.id].cancel();
     }
     _projects[project.id] = project;
-    _projectSubscriptions[project.id] = project.onProjectModified.listen((_) {
+    _projectSubscriptions[project.id] = project.changes.listen((_) {
       _localStorage[project.id] = project.toJSON();
     });
+    if (_localStorage[project.id] == null) {
+      notifyPropertyChange(#length, length, length-1);
+      notifyChange(new PropertyChangeRecord(this, #iterator, null, null));
+    }
     _localStorage[project.id] = project.toJSON();
   }
 
@@ -58,10 +66,13 @@ class Repository extends SetMixin<Project> {
   @override
   bool remove(Project element) {
     _projects.remove(element.id);
-    if (_projectSubscriptions.containsKey(element.id))
+    if (_projectSubscriptions.containsKey(element.id)) {
       _projectSubscriptions[element.id].cancel();
+    }
     _projectSubscriptions.remove(element.id);
     if (_localStorage.containsKey(element.id)) {
+      notifyPropertyChange(#length, length, length-1);
+      notifyChange(new PropertyChangeRecord(this, #iterator, null, null));
       _localStorage.remove(element.id);
       return true;
     }
