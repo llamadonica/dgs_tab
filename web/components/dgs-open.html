@@ -3,35 +3,30 @@
 <link rel="import" href="packages/paper_elements/paper_input.html">
 <link rel="import" href="packages/core_elements/core_icons.html">
 
-<polymer-element name="dgs-new-project" attributes="project wide" vertical layout center>
+<polymer-element name="dgs-open" attributes="repository wide" vertical layout center>
   <template>
-    <link rel="stylesheet" href="dgs-new-project.css">
+    <link rel="stylesheet" href="dgs-open.css">
     <div class="bg" fit dummy cross-fade></div>
     
     <div class="main" flex layout vertical
          cross-fade-delayed?='{{parentNode.selected == 'splash'}}'>
       <div class="card{{wide?' wide':''}}" flex layout vertical
-             cross-fade-delayed?='{{parentNode.selected != 'profile'}}'
-             slide-up-offscreen?='{{parentNode.selected == 'profile'}}'>
+             cross-fade-delayed?='{{parentNode.selected != 'open'}}'
+             slide-up-offscreen?='{{parentNode.selected == 'open'}}'>
         <div layout vertical flex 
-             cross-fade-delayed?="{{parentNode.lastSelected != 'splash' && wide}}"
-             on-keypress="{{ keypressAction }}">
+             cross-fade-delayed?="{{parentNode.lastSelected != 'splash' && wide}}">
           <div class="indent" layout vertical>
-            <div class="header">New Project</div>
-            <paper-input label="Project Name" id="name" required 
-                error="Please enter a project name"></paper-input>
-            <paper-input label="RESD Project #" id="resd_number"></paper-input>
-          </div>
-          <div flex></div>
-          <div layout horizontal>
-            <div flex></div>
-            <paper-fab id="check" icon="check" on-tap="{{handleLogin}}"
-                       showing="{{ fabIsShowing }}"></paper-fab>
+            <div class="header">Select Project</div>
+            <template repeat="{{project in repository}}">
+              <paper-button id="open-project-{{project.id}}" label="{{project.name}}" raisedButton>
+              </paper-button>
+            </template>
+            <paper-button id="new-project" label="Create a new project" raisedButton icon="add"></paper-button>
           </div>
         </div>
       </div>
     </div>
   
   </template>
-  <script type="application/dart" src="dgs-new-project.dart"></script>
+  <script type="application/dart" src="dgs-open.dart"></script>
 </polymer-element>
