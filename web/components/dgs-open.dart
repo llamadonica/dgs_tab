@@ -1,4 +1,5 @@
 import 'package:polymer/polymer.dart';
+import 'package:core_elements/core_animated_pages.dart';
 import '../models.dart';
 
 /**
@@ -7,8 +8,13 @@ import '../models.dart';
 @CustomTag('dgs-open')
 class DgsNewProject extends PolymerElement {
   @published bool wide;
-  @published Repository repository;
+  @published Map<String,Project> repository;
   
   DgsNewProject.created() : super.created();
-  
+  void handleSelect(ev) {
+    
+  }
+  void createNew() {
+    (parentNode as CoreAnimatedPages).selected = 'new-project';
+  }
 }

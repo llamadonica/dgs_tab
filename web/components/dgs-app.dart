@@ -12,7 +12,7 @@ class DgsApp extends PolymerElement {
   @observable final String responsiveWidth = '900px';
   @observable bool wide;
   @observable Project project;
-  @observable Repository repository;
+  @observable Map<String,Project> repository;
   
   static const Duration MIN_DURATION = const Duration(seconds: 1);
   DateTime readyTime;
@@ -22,11 +22,14 @@ class DgsApp extends PolymerElement {
   
   @override ready() {
     readyTime = new DateTime.now();
-    repository = new Repository();
+    repository = toObservable({},deep: true);
     
-    if (window.history.state == null)
-      window.history.pushState({'app':'dgs'}, '');
-    window.onPopState.listen(popState);
+    try {
+      if (window.history.state == null)
+        window.history.pushState({'app':'dgs'}, '');
+      window.onPopState.listen(popState);
+    } catch (err) {
+    }
     if (project == null) {
       var now = new DateTime.now();
       asyncTimer(finishStartup,MIN_DURATION);

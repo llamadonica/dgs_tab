@@ -17,7 +17,7 @@
              cross-fade-delayed?="{{parentNode.lastSelected != 'splash' && wide}}"
              on-keypress="{{ keypressAction }}">
           <div class="indent" layout vertical>
-            <div class="header">{{(project == null)?'New Project':'Edit Project Info'}}</div>
+            <div class="header">{{(isNew == false)?'New Project':'Edit Project Info'}}</div>
             <paper-input label="Project Name" id="name" required 
                 error="Please enter a project name" value="{{project.name}}"></paper-input>
             <paper-input label="RESD Project #" id="resdNumber" value="{{project.resdNumber}}"></paper-input>

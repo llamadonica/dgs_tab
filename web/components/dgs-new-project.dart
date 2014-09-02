@@ -11,9 +11,11 @@ import '../models.dart';
 @CustomTag('dgs-new-project')
 class DgsNewProject extends PolymerElement {
   @published bool wide;
-  @published Repository repository;
+  @published Map<String,Project> repository;
   @published Project project;
+  
   @observable bool fabIsShowing = false;
+  @observable bool isNew = false;
   
   static List<String> fields = ['name','resdNumber','jobNumber','surveyorName',
                                 'initials'];
@@ -21,18 +23,12 @@ class DgsNewProject extends PolymerElement {
   DgsNewProject.created() : super.created();
   @override
   ready() {
-<<<<<<< HEAD
-    if (project != null) {
-      $['name'].inputValue = project.name;
-    }
-    ($['name'] as PaperInput).onChange.listen((ev) {
-=======
     if (project == null) {
+      isNew = true;
       var uuid = new Uuid();
       project = new Project(uuid.v1());
     }
     ($['name'] as PaperInput).onInput.listen((ev) {
->>>>>>> 4d52bc2945eac3d242d421988d349851060126bf
       if (($['name'] as PaperInput).inputValue == '')
         fabIsShowing = false;
       else
@@ -40,7 +36,8 @@ class DgsNewProject extends PolymerElement {
     });
   }
   void handleSave() {
-    repository.add(project);
+    repository[project.id] = project;
+    isNew = false;
     
     (parentNode as CoreAnimatedPages).selected = 'open';
   }

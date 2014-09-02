@@ -1,6 +1,6 @@
 part of dgs.models;
 
-class Repository extends SetMixin<Project> with ChangeNotifier {
+class Repository extends SetMixin<Project> with Observable {
   final UserStorage _localStorage;
   final Map<String,Project> _projects = new Map<String,Project>();
   final Map<String,StreamSubscription> _projectSubscriptions = 
@@ -43,8 +43,12 @@ class Repository extends SetMixin<Project> with ChangeNotifier {
       _localStorage[project.id] = project.toJSON();
     });
     if (_localStorage[project.id] == null) {
-      notifyPropertyChange(#length, length, length-1);
+      notifyPropertyChange(#length, length, length+1);
       notifyChange(new PropertyChangeRecord(this, #iterator, null, null));
+      notifyChange(new MapChangeRecord.insert(project, project));
+    } else {
+      notifyChange(new MapChangeRecord(project, _localStorage[project.id],
+          project));
     }
     _localStorage[project.id] = project.toJSON();
   }
@@ -73,6 +77,7 @@ class Repository extends SetMixin<Project> with ChangeNotifier {
     if (_localStorage.containsKey(element.id)) {
       notifyPropertyChange(#length, length, length-1);
       notifyChange(new PropertyChangeRecord(this, #iterator, null, null));
+      notifyChange(new MapChangeRecord.remove(element, element));
       _localStorage.remove(element.id);
       return true;
     }
@@ -93,8 +98,8 @@ class HtmlUserStorage extends UserStorage with DelegatingMap<String,Map> {
     super._(),
     _delegate = new MapFunctor<String,String,Map>(
         (storage==null)?html.window.sessionStorage:storage,
-        toFunc: (source) => JSON.decode(source),
-        fromFunc: (value) => JSON.encode(value));
+        toFunc: (source) => source==null?null:JSON.decode(source),
+        fromFunc: (value) => value==null?null:JSON.encode(value));
   Map<String,Map> get delegate => _delegate;
 }
 
