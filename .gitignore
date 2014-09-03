@@ -1,2 +1,5 @@
 /build
 **/packages
+pubspec.lock
+.buildlog
+/.settings
