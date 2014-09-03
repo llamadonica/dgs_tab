@@ -4,7 +4,7 @@
 <link rel="import" href="packages/core_elements/core_icons.html">
 
 <polymer-element name="dgs-new-project" attributes="repository project wide" vertical layout center>
-  <template>
+  <template bind>
     <link rel="stylesheet" href="dgs-new-project.css">
     <div class="bg" fit dummy cross-fade></div>
     
@@ -17,7 +17,16 @@
              cross-fade-delayed?="{{parentNode.lastSelected != 'splash' && wide}}"
              on-keypress="{{ keypressAction }}">
           <div class="indent" layout vertical>
-            <div class="header">{{(isNew == false)?'New Project':'Edit Project Info'}}</div>
+            <div class="header">
+              <template if="{{isNew}}" bind>
+                New Project
+              </template>
+              <span delayshow?="{{isNew}}">
+                <template if="{{!isNew}}" bind>
+                  Edit Project Info
+                </template>
+              </span>
+            </div>
             <paper-input label="Project Name" id="name" required 
                 error="Please enter a project name" value="{{project.name}}"></paper-input>
             <paper-input label="RESD Project #" id="resdNumber" value="{{project.resdNumber}}"></paper-input>
@@ -30,7 +39,7 @@
           <div layout horizontal>
             <div flex></div>
             <paper-fab id="check" icon="check" on-tap="{{handleSave}}"
-                       showing="{{ fabIsShowing }}"></paper-fab>
+                       showing="{{project.name != '' && project.name != null}}"></paper-fab>
           </div>
         </div>
       </div>

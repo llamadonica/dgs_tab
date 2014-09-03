@@ -23,17 +23,18 @@ class DgsNewProject extends PolymerElement {
   DgsNewProject.created() : super.created();
   @override
   ready() {
-    if (project == null) {
-      isNew = true;
-      var uuid = new Uuid();
-      project = new Project(uuid.v1());
-    }
+    createNewProject();
     ($['name'] as PaperInput).onInput.listen((ev) {
       if (($['name'] as PaperInput).inputValue == '')
         fabIsShowing = false;
       else
         fabIsShowing = true;
     });
+  }
+  void createNewProject() {
+    var uuid = new Uuid();
+    project = new Project(uuid.v1());
+    isNew = true;
   }
   void handleSave() {
     repository[project.id] = project;

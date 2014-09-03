@@ -1,0 +1,75 @@
+{
+  'categories' : {
+    'spaces' : {
+      'name': 'Spaces'
+      'hasMany': [
+        'protrusions',
+        ...
+        ...
+      ],
+      manyToMany: [
+        'doors',
+        ...
+      ]
+    },
+    'protrusions': 'Protrusions'
+  },
+  'summaries' : {
+    'A': {
+      'forms': [
+        '17A',
+        '17B'
+      ]
+    }
+  },
+  'forms' : {
+    'describes': 'spaces',
+    'questions' : {
+      '17A' : {
+        'text': '....',
+        'rules' : {
+          'if' : {
+            'condition' : '....',
+            'then' : 'T'
+            'else' : {
+              'if' : {
+                'condition' : {
+                  'empty' : {
+                    'doors'
+                  }
+                },
+                'then' : 'NA',
+                'else' : {
+                  'if' : 
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  'inquiry' : {
+    'doors' : 
+  }
+}
+
+/* A survey has summaries. A summary is made up of multiple questionnaires, 
+ * which in turn have multiple questions. 
+ * 
+ * A building is made up of multiple components, which are in some way related.
+ *
+ * The template is what links them together, through subparts of each question
+ * called inquiries. Each inquiry can represent a logical state that depends 
+ * on other inquiries or a question itself.
+ * 
+ * The logical parts are 'or' 'and' 'not' and 'xor'. In addition, the items may
+ * be collected according to their relationship 'allOf' or 'anyOf'. Finally, at
+ * the top is an 'if' 'then' 'else' to link the imperative parts.
+ * 
+ * The question itself can take the form of a 'min' 'max' 'minMax' or 'yesNo'
+ * question.
+ * 
+ * When each question is hit from the questionnaires, it inquires each of the
+ * questions as it runs across them, so there is no need for duplication.
+ */

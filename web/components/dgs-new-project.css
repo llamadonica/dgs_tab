@@ -29,6 +29,13 @@
       font-weight: lighter;
       margin-bottom: 16px;
     }
+    .header span {
+      -webkit-transition: opacity 0s ease 2s;
+      transition: opacity 0s ease 2s;
+    }
+    .header span[delayshow] {
+      opacity: 0.0;
+    }
     .header.spaced {
       margin-top: 16px;
     }
