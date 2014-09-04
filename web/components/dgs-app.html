@@ -1,12 +1,14 @@
 <link rel="import" href="packages/core_elements/core_animated_pages.html">
 <link rel="import" href="packages/core_elements/core_media_query.html">
 
+<link rel="import" href="dgs-load-template.html">
 <link rel="import" href="dgs-new-project.html">
 <link rel="import" href="dgs-open.html">
 
-<polymer-element name="dgs-app" vertical layout>
+<polymer-element name="dgs-app" attributes="templateUrl" vertical layout>
   <template>
     <link rel="stylesheet" href="dgs-app.css">
+    <dgs-load-template url="{{templateUrl}}"></dgs-load-template>
     <core-animated-pages selected="{{selected}}" transitions="cross-fade-delayed cross-fade slide-up-offscreen" flex>
       <div name="splash">
         <div fit class="splash{{wide?' wide':''}}" cross-fade>

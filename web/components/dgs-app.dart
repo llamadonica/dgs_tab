@@ -8,6 +8,8 @@ import '../models.dart';
  */
 @CustomTag('dgs-app')
 class DgsApp extends PolymerElement {
+  @published String templateUrl;
+  
   @observable String selected = 'splash';
   @observable final String responsiveWidth = '900px';
   @observable bool wide;

@@ -1,0 +1,16 @@
+<link rel="import" href="packages/core_elements/core_toolbar.html">
+<link rel="import" href="packages/core_elements/core_selector.html">
+<link rel="import" href="packages/core_elements/core_icon.html">
+
+<polymer-element name="dgs-categories" attributes="project categories category wide" vertical layout>
+  <template>
+    <link rel="stylesheet" href="dgs-categories.css">
+    <core-toolbar class="category-toolbar" slide-down?="{{parentElement.selected !== 'category' && parentElement.lastSelected !== 'category'}}">
+      <core-icon icon="menu" on-tap="{{menuAction}}"></core-icon>
+      <div flex class="user-name">{{navigation}}</div>
+      <div>{{user.score}} pts</div>
+      
+    </core-toolbar>
+  </template>
+  <script type="application/dart" src="dgs-categories.dart"></script>
+</polymer-element>

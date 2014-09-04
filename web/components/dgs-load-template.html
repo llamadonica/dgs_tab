@@ -1,0 +1,8 @@
+<link rel="import" href="packages/core_elements/core_ajax_dart.html">
+
+<polymer-element attributes="url" name="dgs-load-template" hidden>
+<template>
+  <core-ajax-dart auto handleAs="json" url="{{url}}" on-core-response="{{handleResponse}}"></core-ajax-dart>
+</template>
+<script type="application/dart" src="dgs-load-template.dart"></script>
+</polymer-element>

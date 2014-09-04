@@ -12,7 +12,6 @@ class Questionnaire {
   Questionnaire (String this.id) {
     loadedQuestionnaires[id] = this;
   }
-  Category inspects;
   List<QuestionnaireQuestion> questions;
 }
 
@@ -25,20 +24,4 @@ class QuestionnaireQuestion {
   
 }
 
-class LogicalExpression {
-  const LogicalExpression();
-}
-
-class LogicalResult extends LogicalExpression {
-  final int code;
-  final String text;
-  const LogicalResult(int this.code, String this.text);
-  
-  bool operator ==(LogicalResult other) => other.code == this.code;
-  int get hashCode => code;
-
-  static const LogicalResult Y = const LogicalResult(0,'Y');
-  static const LogicalResult N = const LogicalResult(1,'N');
-  static const LogicalResult NA = const LogicalResult(2,'NA');
-}
 
