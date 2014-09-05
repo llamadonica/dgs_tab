@@ -40,7 +40,7 @@ class DgsNewProject extends PolymerElement {
     repository[project.id] = project;
     isNew = false;
     
-    (parentNode as CoreAnimatedPages).selected = 'open';
+    (parentNode as CoreAnimatedPages).selected = 'categories';
   }
   void keypressAction(KeyboardEvent ev) {
     var keyStroke = (ev.which is int)?ev.which:ev.keyCode;

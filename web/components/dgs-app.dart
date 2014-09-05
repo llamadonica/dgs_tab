@@ -15,6 +15,8 @@ class DgsApp extends PolymerElement {
   @observable bool wide;
   @observable Project project;
   @observable Map<String,Project> repository;
+  @observable dynamic templates;
+  @observable String template;
   
   static const Duration MIN_DURATION = const Duration(seconds: 1);
   DateTime readyTime;
@@ -50,5 +52,8 @@ class DgsApp extends PolymerElement {
     } else {
       this.selected = 'open';
     }
+  }
+  templateReady(CustomEvent ev) {
+    templates=ev.detail['response'];
   }
 }
