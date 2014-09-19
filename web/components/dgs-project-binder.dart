@@ -8,15 +8,15 @@ import '../models.dart';
 /**
  * A Polymer click counter element.
  */
-@CustomTag('dgs-categories')
-class DgsCategories extends PolymerElement {
+@CustomTag('dgs-project-binder')
+class DgsProjectBinder extends PolymerElement {
   @published bool wide;
   @published Project project;
   @published Map<String, Map> templates;
   @published String template;
   @observable String navigation;
 
-  DgsCategories.created() : super.created() {
+  DgsProjectBinder.created() : super.created() {
   }
   void menuAction(ev) {
     

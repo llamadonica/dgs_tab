@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="dgs-open.css">
     <div class="bg" fit dummy cross-fade></div>
     
-    <div class="main" flex layout vertical
+    <div class="main{{wide?' wide':''}}" flex layout vertical
          cross-fade-delayed?='{{parentNode.selected == 'splash'}}'>
       <div class="card{{wide?' wide':''}}" flex layout vertical
              cross-fade-delayed?='{{parentNode.selected != 'open'}}'

@@ -1,0 +1,24 @@
+<link rel="import" href="packages/core_elements/core_scaffold.html">
+<link rel="import" href="packages/core_elements/core_header_panel.html">
+<link rel="import" href="packages/core_elements/core_icon.html">
+<link rel="import" href="packages/core_elements/core_toolbar.html">
+<link rel="import" href="packages/core_elements/core_item.html">
+<link rel="import" href="packages/core_elements/core_menu.html">
+
+<polymer-element name="dgs-project-binder" attributes="project templates template wide" vertical layout>
+  <template>
+    <link rel="stylesheet" href="dgs-project-binder.css">
+    <core-scaffold>
+      <core-header-panel navigation flex mode="seamed">
+        <core-toolbar>{{project.name}}</core-toolbar>
+        <core-menu theme="core-light-theme">
+          <core-item icon="settings" label="item1"></core-item>
+          <core-item icon="settings" label="item2"></core-item>
+        </core-menu>
+      </core-header-panel>
+      <div tool>Title</div>
+      <div>Content goes here...</div>
+    </core-scaffold>
+  </template>
+  <script type="application/dart" src="dgs-project-binder.dart"></script>
+</polymer-element>

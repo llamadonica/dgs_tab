@@ -11,7 +11,7 @@ class DgsApp extends PolymerElement {
   @published String templateUrl;
   
   @observable String selected = 'splash';
-  @observable final String responsiveWidth = '900px';
+  String RESPONSIVE_WIDTH = '900px';
   @observable bool wide;
   @observable Project project;
   @observable Map<String,Project> repository;
